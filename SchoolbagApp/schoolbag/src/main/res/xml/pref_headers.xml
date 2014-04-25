@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="in.ac.iitb.cse.aakash.schoolbag.Settings$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+    <!--<header-->
+        <!--android:fragment="in.ac.iitb.cse.aakash.schoolbag.Settings$NotificationPreferenceFragment"-->
+        <!--android:title="@string/pref_header_notifications" />-->
+    <!--<header-->
+        <!--android:fragment="in.ac.iitb.cse.aakash.schoolbag.Settings$DataSyncPreferenceFragment"-->
+        <!--android:title="@string/pref_header_data_sync" />-->
+
+</preference-headers>

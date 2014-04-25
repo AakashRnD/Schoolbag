@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SchoolbagApp</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="action_mode">Mode</string>
+	<string name="action_settings">Settings</string>
+	<string name="title_activity_read_book">ReadBook</string>
+	<string name="dummy_button">Dummy Button</string>
+	<string name="dummy_content">DUMMY\nCONTENT</string>
+	<string name="drawer_open">Open Drawer</string>
+	<string name="drawer_close">Close Drawer</string>
+	<string name="pref_about">About Schoolbag</string>
+	<string name="title_activity_about">About</string>
+	<string name="hello_world">Hello world!</string>
+</resources>

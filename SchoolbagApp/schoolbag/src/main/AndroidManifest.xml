@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.iitb.cse.aakash.schoolbag" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="in.ac.iitb.cse.aakash.schoolbag.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ac.iitb.cse.aakash.schoolbag.ReadBook"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_read_book"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="in.ac.iitb.cse.aakash.schoolbag.Settings"
+            android:label="@string/title_activity_settings_activity2" >
+        </activity>
+        <activity
+            android:name="in.ac.iitb.cse.aakash.schoolbag.About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="in.ac.iitb.cse.aakash.schoolbag.Settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Settings" />
+        </activity>
+    </application>
+
+</manifest>
